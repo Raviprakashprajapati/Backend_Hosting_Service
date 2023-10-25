@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 app.get("/",(req,res)=>{
-    res.send("HOME PAGE HAI BHAI");
+    res.send("HOME PAGE HAI BHAI <br> Backend Service Is Running Successfully........");
 })
 
 app.get("/about",(req,res)=>{
